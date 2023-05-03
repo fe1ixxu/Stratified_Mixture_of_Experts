@@ -31,7 +31,7 @@ Example: if we want to train a 4 layer SMoE, each layer has 2 expert based on a 
 ```
 sbatch (bash) runs/run_m4.sh tmp base 8 4 2,2,2,2
 ```
-The same training command also applies to M15 dataset by using `runs/run_m15.sh` file. Note that one should always enable the `--only-compute-current-layer-tokens` to reduce the GPU memory (which is already enabled in the training command). Using this option can make expert only compute tokens in its current layer.
+The same training command also applies to M15 dataset by using `runs/run_m15.sh` file. Note that one should always enable the `--only-compute-current-layer-tokens` to reduce the GPU memory (which is already enabled in the training command). Using this option can make expert only compute tokens in its current strata.
 
 ## Evaluation:
 The evaluation commands are below the training commands in the `runs/run_m{4,15}.sh` files. Comment the training commands and rerun them to conduct evaluation.
