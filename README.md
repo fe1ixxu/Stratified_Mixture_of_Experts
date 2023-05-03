@@ -12,6 +12,12 @@ git checkout origin/experts_lt_gpus_moe_reload_fix
 pip install .
 ```
 
+## Download m15 dataset:
+```
+pip install gdown
+gdown https://drive.google.com/uc?id=1tT2urUunXLNEPZxxV2nK-YmC_N6P_48m
+unzip m15.zip
+```
 ## Training SMoE:
 The training command is in the following format (taking running experiments on M4 dataset):
 ```
