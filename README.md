@@ -1,6 +1,13 @@
-This is the repo our paper: Towards Being Parameter-Efficient: A Stratified Sparsely Activated Transformer with Dynamic Capacity
-
-## Building VirtualEnvironments:
+This is the repository for our EMNLP 2023 paper "[Towards Being Parameter-Efficient: A Stratified Sparsely Activated Transformer with Dynamic Capacity](https://arxiv.org/pdf/2305.02176.pdf)".
+```
+@article{xu2023towards,
+  title={Towards Being Parameter-Efficient: A Stratified Sparsely Activated Transformer with Dynamic Capacity},
+  author={Xu, Haoran and Elbayad, Maha and Murray, Kenton and Maillard, Jean and Goswami, Vedanuj},
+  journal={arXiv preprint arXiv:2305.02176},
+  year={2023}
+}
+```
+## Building Virtual Environments:
 ```
 conda create -n fairseq-smoe python=3.8
 conda activate fairseq-smoe
